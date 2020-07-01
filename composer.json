@@ -1,1 +1,16 @@
+{
+  "name": "jorgenavarrodj/helloworld",
+  "description": "Hello World",
+  "type": "drupal-custom-module",
+  "repositories": [
+    {
+        "type": "composer",
+        "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "drupal/admin_toolbar": "^2.3"
+  }
+}
 
